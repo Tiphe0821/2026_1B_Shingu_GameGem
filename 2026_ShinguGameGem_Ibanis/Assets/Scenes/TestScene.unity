@@ -148,12 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b904be7893d1143a2ced2c437c61de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IndieMarc.TopDown.PlayerControls
-  player_id: 0
-  left_key: 97
-  right_key: 100
-  up_key: 119
-  down_key: 115
-  action_key: 102
 --- !u!4 &689541617
 Transform:
   m_ObjectHideFlags: 0
@@ -180,6 +174,7 @@ GameObject:
   - component: {fileID: 831356760}
   - component: {fileID: 831356759}
   - component: {fileID: 831356758}
+  - component: {fileID: 831356761}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -261,6 +256,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &831356761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831356757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2da660513ad5040bc3b3db3baa0658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  target: {fileID: 1535832367}
+  target_offset: {x: 0, y: 0, z: -10}
+  camera_speed: 5
 --- !u!1 &1535832367
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,12 +443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d33aa9e63655fdf4082e0bd36620c949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IndieMarc.TopDown.PlayerCharacter
-  player_id: 0
-  max_hp: 100
-  invulnerable: 0
-  move_accel: 1
-  move_deccel: 1
-  move_max: 1
 --- !u!95 &1535832373
 Animator:
   serializedVersion: 7
