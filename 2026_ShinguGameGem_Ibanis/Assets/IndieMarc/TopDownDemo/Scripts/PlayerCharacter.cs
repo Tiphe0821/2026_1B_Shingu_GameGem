@@ -39,6 +39,7 @@ namespace IndieMarc.TopDown
         private Vector2 move_input;
         private Vector2 lookat = Vector2.zero;
         private float side = 1f;
+        private float side_ = 1f;
         private bool disable_controls = false;
         private float hit_timer = 0f;
 
@@ -99,6 +100,8 @@ namespace IndieMarc.TopDown
                 lookat = move.normalized;
             if (Mathf.Abs(lookat.x) > 0.02)
                 side = Mathf.Sign(lookat.x);
+            if (Mathf.Abs(lookat.y) > 0.02)
+                side_ = Mathf.Sign(lookat.y);
             
         }
 
@@ -173,7 +176,7 @@ namespace IndieMarc.TopDown
 
         public int GetSideAnim()
         {
-            return (side >= 0) ? 1 : 3;
+            return (side >= 0) ? ((side_ >= 0) ? 2 : 1) : ((side_ >= 0) ? 3 : 4);
         }
 
         public bool IsDead()
