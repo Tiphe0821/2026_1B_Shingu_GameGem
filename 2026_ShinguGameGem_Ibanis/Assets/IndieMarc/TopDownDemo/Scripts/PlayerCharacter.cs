@@ -176,7 +176,17 @@ namespace IndieMarc.TopDown
 
         public int GetSideAnim()
         {
-            return (side >= 0) ? ((side_ >= 0) ? 2 : 1) : ((side_ >= 0) ? 3 : 4);
+            // 왼쪽 위 -> 위 애니메이션 : 
+            // 왼쪽 아래 -> 왼쪽 애니메이션: 3
+            // 가만히 있을 경우 -> 아래 애니메이션: 4
+            // 오른쪽 위 -> 오른쪽 애니메이션: 1
+            // 오른쪽 아래 -> 아래 애니메이션: 4
+
+            bool right = false;
+            bool down = false;
+
+
+            return (side >= 0) ? 1 : 3;
         }
 
         public bool IsDead()
