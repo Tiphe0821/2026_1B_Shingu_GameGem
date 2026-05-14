@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8843f19d27163264db66495ab394eca5
+guid: d1ea8dde483315244bb4fbcf3f9f8724
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2435188440619517010
-    second: idle_right_blink_0
+      213: -7753148577178144632
+    second: right_blink_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_right_blink_0
+      name: right_blink_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 254834c0cf68bc120800000000000000
-      internalID: 2435188440619517010
+      spriteID: 880b87e6278476490800000000000000
+      internalID: -7753148577178144632
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      idle_right_blink_0: 2435188440619517010
+      right_blink_0: -7753148577178144632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
