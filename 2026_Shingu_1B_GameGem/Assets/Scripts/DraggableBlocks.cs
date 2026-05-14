@@ -1,35 +1,34 @@
 using UnityEngine;
 
-public class DraggableRank : MonoBehaviour
+public class DraggableBlocks : MonoBehaviour
 {
-    public int rankLevel = 1; // 계급장레벨 (0은 빈칸)
-    public float dragSpeed = 30.0f;     // 드래그 시 오브젝트 이동 속도
-    public float snapBackSpeed = 30f;   // 원위치로 돌아가는 속도 설정
+    public float dragSpeed = 30.0f;        // 드래그 시 오브젝트 이동 속도
+    public float snapBackSpeed = 30.0f;     // 원위치로 돌아가는 속도
+    SpriteRenderer spriteRenderer;
 
-    public bool isDragging = false;     // 현재 드래그 중인지 확인하는 변수
+    public bool isDragging = false;         // 현재 드래그 중인지 확인하는 변수
     public Vector3 originalPosition;
     public GridCell currentCell;
 
-    public Camera mainCamera;           // 메인 카메라
-    public Vector3 dragOffset;          // 드래그 시 오프셋 (보정값)
-    public SpriteRenderer spriteRenderer;   // 계급 이미지 렌더러
+    public Camera mainCamera;               // 메인 카메라 
+    public Vector3 dragOffset;              // 드래그 시 오프셋 (보정값)
 
-    public RankGameManager GameManager; // 게임 매니져
-                                        // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public PathMakingGame GameManager;      // 어차피 게임메니져를 부모로 둘 생각이다 (프리팹으로 해서 많이 만들것.)
+                                            // -> 그럼 FindAnyObjectByType이 아니라 
+                                            // GetComponentInParent를 써도 되지 않을까?
 
     private void Awake()
     {
         mainCamera = Camera.main;
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        GameManager = FindAnyObjectByType<RankGameManager>(); //  이거 말고 다른 방법은 없을까? 
-        
+        GameManager = GetComponentInParent<PathMakingGame>();
     }
+
 
     void Start()
     {
         originalPosition = transform.position;
     }
-
+    /**
     void StartDragging()
     {
         isDragging = true;
@@ -42,14 +41,14 @@ public class DraggableRank : MonoBehaviour
         isDragging = false;
         spriteRenderer.sortingOrder = 1;
         GridCell targetCell = GameManager.FindClosestCell(transform.position);
-        
-        if(targetCell != null )
+
+        if (targetCell != null)
         {
-            if(targetCell.currentRank == null) // 빈칸인 경우 -> 이동
+            if (targetCell.currentRank == null) // 빈칸인 경우 -> 이동
             {
                 MoveToCell(targetCell);
             }
-            else if(targetCell.currentRank != this && targetCell.currentRank.rankLevel == rankLevel)
+            else if (targetCell.currentRank != this && targetCell.currentRank.rankLevel == rankLevel)
             {
                 MergeWithCell(targetCell);
             }
@@ -63,14 +62,14 @@ public class DraggableRank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isDragging)
+        if (isDragging)
         {
             Vector3 targetPosition = GetMouseWorldPosition() + dragOffset;
             transform.position = Vector3.Lerp(transform.position, targetPosition, dragSpeed * Time.deltaTime);
         }
-        else if( transform.position != originalPosition && currentCell != null )
+        else if (transform.position != originalPosition && currentCell != null)
         {
-            transform.position = Vector3.Lerp(originalPosition, originalPosition,snapBackSpeed * Time.deltaTime);
+            transform.position = Vector3.Lerp(originalPosition, originalPosition, snapBackSpeed * Time.deltaTime);
         }
     }
 
@@ -87,7 +86,7 @@ public class DraggableRank : MonoBehaviour
 
     public void MoveToCell(GridCell targetCell)
     {
-        if(currentCell != null)
+        if (currentCell != null)
         {
             currentCell.currentRank = null;
         }
@@ -104,21 +103,20 @@ public class DraggableRank : MonoBehaviour
         transform.position = originalPosition;
     }
 
-    public void MergeWithCell(GridCell targetCell)
+    public void MergeWithCell(GridCell targetCell)      // 옆쪽 칸이 아니라면 돌아가도록 하자.
     {
-        if(targetCell.currentRank == null || targetCell.currentRank.rankLevel != rankLevel)
+        if (targetCell.currentRank == null || targetCell.currentRank.rankLevel != rankLevel)
         {
             ReturnToOriginalPosition();
             return;
         }
 
-        if(currentCell != null)
+        if (currentCell != null)
         {
             currentCell.currentRank = null;     // 기존 칸에서 제거
         }
 
-        // 합치기 실행 MergeRank 함수를 통해서 실행
-        GameManager.MergeRanks(this, targetCell.currentRank);
+        // GameManager.MergeRanks(this, targetCell.currentRank); 합치기 안할 예정
     }
 
     public Vector3 GetMouseWorldPosition()          // 월드 좌표 구하기
@@ -127,16 +125,5 @@ public class DraggableRank : MonoBehaviour
         mousePos.z = -mainCamera.transform.position.z;
         return mainCamera.ScreenToWorldPoint(mousePos);
     }
-
-    public void SetRankLevel(int level)
-    {
-        rankLevel = level;
-        Debug.Log("위쪽 들어왔어요");
-
-        if(GameManager != null && GameManager.rankSprites.Length > level -1)
-        {
-            Debug.Log("들어왔어요");
-            spriteRenderer.sprite = GameManager.rankSprites[level - 1];         // 레벨에 맞는 스프라이트로 변경
-        }
-    }
+    **/
 }

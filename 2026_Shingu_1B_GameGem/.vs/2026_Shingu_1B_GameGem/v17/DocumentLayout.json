@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\icegametrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\icegametrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\temp_refcs\\rankgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\temp_refcs\\rankgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\icegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\icegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\startrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\temp_refcs\\draggablerank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\temp_refcs\\draggablerank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IceGameTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\IceGameTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IceGameTrigger.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\IceGameTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IceGameTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GridCell.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\GridCell.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridCell.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\GridCell.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridCell.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T12:27:32.884Z",
+              "WhenOpened": "2026-05-14T18:26:46.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IceGame.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\IceGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IceGame.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\IceGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IceGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RankGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\Temp_refcs\\RankGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Temp_refcs\\RankGameManager.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\Temp_refcs\\RankGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Temp_refcs\\RankGameManager.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T12:03:00.36Z",
+              "WhenOpened": "2026-05-14T18:26:38.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StarTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\StarTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StarTrigger.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\StarTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StarTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "DraggableRank.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\Temp_refcs\\DraggableRank.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Temp_refcs\\DraggableRank.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\Temp_refcs\\DraggableRank.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Temp_refcs\\DraggableRank.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T11:57:32.398Z",
+              "WhenOpened": "2026-05-14T18:26:39.282Z",
               "EditorCaption": ""
             }
           ]
