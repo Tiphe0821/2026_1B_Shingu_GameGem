@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\playeranim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_1b_shingu_gamegem\\2026_shingu_1b_gamegem\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA90BE8-0A74-9DE5-59EB-3358971A7955}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerAnim.cs",
-              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\PlayerAnim.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnim.cs",
-              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\PlayerAnim.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerAnim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T01:29:54.471Z",
+              "WhenOpened": "2026-05-14T02:19:16.956Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_1B_Shingu_GameGem\\2026_Shingu_1B_GameGem\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T12:01:31.668Z",
+              "WhenOpened": "2026-05-14T02:11:38.763Z",
               "EditorCaption": ""
             }
           ]
