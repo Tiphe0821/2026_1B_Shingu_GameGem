@@ -53,13 +53,6 @@ public class PlayerController : MonoBehaviour
         myAnim.SetInteger("Side", side);
     }
 
-    public float GetSpeed()
-    {
-        float currentSpeed = rb.linearVelocity.magnitude;
-
-        return currentSpeed;
-    }
-
     public bool MiniCanMove
     {
         get { return miniCanMove; }
@@ -85,7 +78,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isMiniGame)
         {
-            transform.Translate(moveInput.normalized.x * moveSpeed * Time.deltaTime, moveInput.normalized.y * moveSpeed * Time.deltaTime, 1.0f);
+            transform.Translate(moveInput.normalized.x * moveSpeed * Time.deltaTime, moveInput.normalized.y * moveSpeed * Time.deltaTime, 0f);
         }
         else
         {
@@ -104,7 +97,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                transform.Translate(miniMoveInput.normalized.x * moveSpeed * 1.2f * Time.deltaTime, miniMoveInput.normalized.y * moveSpeed * 1.2f * Time.deltaTime, 1.0f);
+                transform.Translate(miniMoveInput.normalized.x * moveSpeed * 1.2f * Time.deltaTime, miniMoveInput.normalized.y * moveSpeed * 1.2f * Time.deltaTime, 0f);
             }
         }
         // rb.linearVelocity = new Vector2(moveInput.normalized.x * moveSpeed, moveInput.normalized.y * moveSpeed);
