@@ -69,6 +69,11 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("IceWall"))
         {
+            Vector2 tempVector = collision.gameObject.transform.position;
+            // ∫§≈Õ ∞ËªÍ
+            Vector2 oppDir = new Vector2(transform.position.x - tempVector.x, transform.position.y - tempVector.y);
+            transform.Translate(oppDir.normalized.x * 0.07f, oppDir.normalized.y * 0.07f, 0f);
+
             miniCanMove = true;
         }
     }
@@ -87,11 +92,13 @@ public class PlayerController : MonoBehaviour
                 if(moveInput.x != 0)
                 {
                     miniMoveInput.x = moveInput.x;
+                    miniMoveInput.y = 0f;
                     miniCanMove = false;
                 }
                 else if(moveInput.y != 0)
                 {
                     miniMoveInput.y = moveInput.y;
+                    miniMoveInput.x = 0f; 
                     miniCanMove = false;
                 }
             }
