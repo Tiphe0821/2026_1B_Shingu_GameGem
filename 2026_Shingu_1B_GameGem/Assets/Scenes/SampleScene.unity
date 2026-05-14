@@ -558,6 +558,7 @@ MonoBehaviour:
   isCanMove: 0
   isMiniGame: 0
   side: 4
+  isMoving: 0
 --- !u!4 &810486331
 Transform:
   m_ObjectHideFlags: 0
