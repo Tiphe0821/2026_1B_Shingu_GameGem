@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
             {
                 if(moveInput.x != 0)
                 {
-                    miniMoveInput.x = moveInput.y;
+                    miniMoveInput.x = moveInput.x;
                     miniCanMove = false;
                 }
                 else if(moveInput.y != 0)
