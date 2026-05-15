@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d664c131b11e4d47add6a5c2e0ba20c, type: 3}
   m_Name: Stage3
   m_EditorClassIdentifier: Assembly-CSharp::IceGameSO
-  stars: 0
+  stars: 4
