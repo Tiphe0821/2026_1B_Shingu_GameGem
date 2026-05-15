@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 065b2a6ab9e9f3e4191d895dbcb37a01
+guid: 8ac5d1c39319b8547aa9ef9c72062670
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4763871123202690540
-    second: PopUp_1_0
+      213: 6839836874535050542
+    second: Test_Toielt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PopUp_1_0
+      name: Test_Toielt_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41233c9147453edb0800000000000000
-      internalID: -4763871123202690540
+      spriteID: e2d974cf56bfbee50800000000000000
+      internalID: 6839836874535050542
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PopUp_1_0: -4763871123202690540
+      Test_Toielt_0: 6839836874535050542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
